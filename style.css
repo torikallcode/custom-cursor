@@ -1,0 +1,42 @@
+.cursor {
+    left: 0;
+    top: 0;
+    width: 13px;
+    height: 13px;
+    background-color: #279EFF;
+    position: absolute;
+    border-radius: 50px;
+  }
+  
+  .cursor__follower {
+    transition: transform .4s;
+    width: 8px;
+    height: 8px;
+  }
+  
+  /* Unrelated styles */
+  html {
+    cursor: none;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-family:sans-serif;
+    font-size: 100px;
+    letter-spacing: 12px;
+    line-height: 1;
+    text-align: center;
+    color: #F2F2F2F2
+  }
+  
+  h1 span {
+    letter-spacing: 15px;
+  }
+
+  .color-change {
+    transition: color 0.3s ease-in-out;
+  }
